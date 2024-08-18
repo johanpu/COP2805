@@ -1,0 +1,4 @@
+To solve the problem, I went through each of the breakpoints I made. I noticed that multiplication and addition worked,
+as addition returned 7 and multiplication returned 70. When it got to division, however, even though it had the
+right inputs, it returned 0. The only way to do that is if you used the remainder operator (%) instead of division (/).
+I changed the operator to '/' and the program worked as intended, outputting 35.
